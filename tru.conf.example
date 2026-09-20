@@ -1,0 +1,14 @@
+rpcbind=127.0.0.1
+rpcport=21832
+p2pPort=21833
+listen=1
+addnode=137.184.68.43:21833
+automaticReorg=1
+
+[default]
+node.ip=127.0.0.1
+node.port=21832
+
+[chain]
+chainName=TRUMain
+networkType=mainnet
