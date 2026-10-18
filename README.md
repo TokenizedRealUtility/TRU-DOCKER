@@ -4,10 +4,6 @@
 
 Run a TRU full node on Linux with Docker, without compiling C++ source. The default installation supports CPU or NVIDIA-compatible images, outbound blockchain synchronization, optional incoming P2P connections, encrypted wallet storage, and local authenticated RPC. It also preserves the **PQ01/WOTS+ quantum-wallet sidecar**, should you use the quantum functions.
 
-> **Important:** This guide was checked against the provided `TRU-Core` 0.08.5 source and the previous Docker README. The **actual GHCR image tags, binary paths, and entrypoint were not independently verified against a pulled image**. Check them as described in Step 2 before following the remaining commands. This guide is for **Linux Docker Engine**; Windows/macOS Docker Desktop networking differs.
-
-> **Activation:** TRU 0.08.5 has a configured mainnet consensus activation at **block 50,000** in the supplied node output. Confirm the running node with `getconsensus09info`; do not treat the installed version alone as proof of activation. Do **not** submit PQ01-protected mainnet spends before activation.
-
 ---
 
 ## Contents
