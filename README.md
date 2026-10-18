@@ -821,6 +821,4 @@ The persistent host wallet directory and `tru-data` volume remain intact.
 Website/explorer: https://tokenizedrealutility.com/  
 Mainnet P2P example: `137.184.68.43:21833`  
 Core release documented: **0.08.5**  
-Prepared from user-supplied original Docker README and the uploaded `TRU-Core` source tree.
 
-**Release readiness note:** The revised commands and wallet paths are grounded in the provided Core source; the **published container image's entrypoint, paths, and live behavior must still pass the Step 2 preflight on an actual pulled image** before this document is presented as fully tested end-to-end deployment guidance.
