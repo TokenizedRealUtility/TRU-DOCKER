@@ -1,4 +1,4 @@
-# TRU Blockchain — Docker Node Deployment Guide
+# TRU Blockchain  ·  Docker Node Deployment Guide
 
 **TRU Core 0.08.5 · Mainnet · Public-node guide · Revision 2 · 18 October 2026**
 
